@@ -1,0 +1,87 @@
+#banner{
+
+
+    background-image: url(imagen/banner.jpeg);
+    background-size: cover;
+    padding: 20% 2%;
+    position:relative;
+    z-index: 1;
+}
+
+
+
+#banner::after{
+
+    position:absolute;
+    background: black;
+    content: '';
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    opacity: 0.5;
+    z-index: -1;
+    background-attachment: fixed;
+}
+
+
+#banner h1{
+
+    color: white;
+    position: relative;
+    font-size: 4rem;
+
+
+}
+
+
+.bg-dark{
+
+background-color: transparent !important;
+
+}
+
+
+.zoom{
+    overflow: hidden;
+}
+
+
+
+.zoom img{
+    transition: 0.5s ease; 
+   
+}
+
+
+.zoom:hover img{
+    transform: scale(1.5);
+
+}
+
+
+.descripcion{
+    font-family:'Barlow Condensed', sans-serif;
+     
+    font-size: 1.5;
+}
+
+
+.fondoicono{
+    color: black;
+}
+
+
+
+.fondo2{
+    background-color: #262C2B;
+}
+
+
+footer{
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+
